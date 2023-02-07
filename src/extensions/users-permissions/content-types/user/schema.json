@@ -86,6 +86,12 @@
       "relation": "oneToMany",
       "target": "api::location.location",
       "mappedBy": "user_id"
+    },
+    "volunteer_ids": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::request.request",
+      "mappedBy": "user"
     }
   }
 }

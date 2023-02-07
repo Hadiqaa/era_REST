@@ -4,7 +4,8 @@
   "info": {
     "singularName": "location",
     "pluralName": "locations",
-    "displayName": "location"
+    "displayName": "location",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,6 +22,12 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
+      "inversedBy": "locations"
+    },
+    "request_id": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::request.request",
       "inversedBy": "locations"
     }
   }

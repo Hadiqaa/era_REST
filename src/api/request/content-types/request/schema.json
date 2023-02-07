@@ -4,7 +4,8 @@
   "info": {
     "singularName": "request",
     "pluralName": "requests",
-    "displayName": "request"
+    "displayName": "request",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,33 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "requests"
+    },
+    "task_location_lat": {
+      "type": "float"
+    },
+    "task_location_lng": {
+      "type": "float"
+    },
+    "task_status": {
+      "type": "enumeration",
+      "enum": [
+        "scheduled",
+        "started",
+        "completed",
+        "deleted"
+      ]
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "volunteer_ids"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location",
+      "mappedBy": "request_id"
     }
   }
 }
