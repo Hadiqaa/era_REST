@@ -67,7 +67,8 @@
       "type": "enumeration",
       "enum": [
         "user",
-        "volunteer"
+        "volunteer",
+        "admin"
       ],
       "required": true,
       "default": "user"
