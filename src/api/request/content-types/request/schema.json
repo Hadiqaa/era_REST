@@ -37,7 +37,8 @@
         "started",
         "completed",
         "deleted"
-      ]
+      ],
+      "default": "scheduled"
     },
     "user": {
       "type": "relation",
@@ -50,6 +51,11 @@
       "relation": "oneToMany",
       "target": "api::location.location",
       "mappedBy": "request_id"
+    },
+    "status": {
+      "type": "string",
+      "default": "scheduled",
+      "required": true
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-02-08T22:15:35.770Z"
+    "x-generation-date": "2023-03-29T00:00:08.504Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -797,6 +797,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "status": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -1672,6 +1675,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "status": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -2581,6 +2587,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3456,6 +3465,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3681,7 +3693,9 @@
         ],
         "properties": {
           "data": {
-            "required": [],
+            "required": [
+              "status"
+            ],
             "type": "object",
             "properties": {
               "title": {
@@ -3742,6 +3756,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "status": {
+                "type": "string"
               }
             }
           }
@@ -4412,6 +4429,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -4606,6 +4626,9 @@
                     }
                   }
                 }
+              },
+              "status": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -5322,6 +5345,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -5516,6 +5542,9 @@
                     }
                   }
                 }
+              },
+              "status": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -6265,6 +6294,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -6459,6 +6491,9 @@
                     }
                   }
                 }
+              },
+              "status": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -7175,6 +7210,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -7369,6 +7407,9 @@
                     }
                   }
                 }
+              },
+              "status": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -13190,6 +13231,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "status": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -14038,6 +14082,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "status": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -14921,6 +14968,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "status": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -15769,6 +15819,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "status": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -16641,6 +16694,9 @@
                                                                           }
                                                                         }
                                                                       }
+                                                                    },
+                                                                    "status": {
+                                                                      "type": "string"
                                                                     },
                                                                     "createdAt": {
                                                                       "type": "string",
@@ -17519,6 +17575,9 @@
                                                                           }
                                                                         }
                                                                       }
+                                                                    },
+                                                                    "status": {
+                                                                      "type": "string"
                                                                     },
                                                                     "createdAt": {
                                                                       "type": "string",
@@ -18431,6 +18490,9 @@
                                                                         }
                                                                       }
                                                                     },
+                                                                    "status": {
+                                                                      "type": "string"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -19308,6 +19370,9 @@
                                                                           }
                                                                         }
                                                                       }
+                                                                    },
+                                                                    "status": {
+                                                                      "type": "string"
                                                                     },
                                                                     "createdAt": {
                                                                       "type": "string",
@@ -20367,6 +20432,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "status": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -21307,6 +21375,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "status": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -22282,6 +22353,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "status": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -23222,6 +23296,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "status": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
